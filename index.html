@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+ <head>
+ <head><script> alert('./InY#urLW7 gans') </script>
+	 <script language="JavaScript">
+// ini efek buat text di title
+ function tb5_makeArray(n){
+ this.length = n;
+ return this.length;
+}
+ 
+tb5_messages = new tb5_makeArray(3);
+tb5_messages[0] = "Hacked By ./InY#urLW7 ID"; // text yang pertama
+tb5_messages[1] = "Kuy Lach ngentod"; // yang kedua
+tb5_messages[2] = "IkEh IkEh KiMoChI"; // yang ketiga
+tb5_rptType = 'infinite';
+tb5_rptNbr = 20;
+tb5_speed = 40;
+tb5_delay = 2000;
+var tb5_counter=2;
+var tb5_currMsg=0;
+var tb5_stsmsg="";
+function tb5_shuffle(arr){
+var k;
+for (i=0; i<arr.length; i++){
+ k = Math.round(Math.random() * (arr.length - i - 1)) + i;
+ temp = arr[i];arr[i]=arr[k];arr[k]=temp;
+}
+return arr;
+}
+tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){
+ tb5_arr[i] = i;
+ tb5_sts[i] = "_";
+}
+tb5_arr = tb5_shuffle(tb5_arr);
+function tb5_init(n){
+var k;
+if (n == tb5_arr.length){
+ if (tb5_currMsg == tb5_messages.length-1){
+ if ((tb5_rptType == 'finite') && (tb5_counter==tb5_rptNbr)){
+ clearTimeout(tb5_timerID);
+ return;
+ }
+ tb5_counter++;
+ tb5_currMsg=0;
+ }
+ else{
+ tb5_currMsg++;
+ }
+ n=0;
+ tb5_arr = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+ tb5_sts = new tb5_makeArray(tb5_messages[tb5_currMsg].length);
+ for (var i=0; i<tb5_messages[tb5_currMsg].length; i++){
+ tb5_arr[i] = i;
+ tb5_sts[i] = "_";
+ }
+ tb5_arr = tb5_shuffle(tb5_arr);
+ tb5_sp=tb5_delay;
+}
+else{
+ tb5_sp=tb5_speed;
+ k = tb5_arr[n];
+ tb5_sts[k] = tb5_messages[tb5_currMsg].charAt(k);
+ tb5_stsmsg = "";
+ for (var i=0; i<tb5_sts.length; i++)
+ tb5_stsmsg += tb5_sts[i];
+ document.title = tb5_stsmsg;
+ n++;
+ }
+ tb5_timerID = setTimeout("tb5_init("+n+")", tb5_sp);
+}
+function tb5_randomizetitle(){
+ tb5_init(0);
+}
+tb5_randomizetitle();
+// ANTI KLIK KANAN
+var message="COPAS??";
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false")
+// -->
+</script>
+     <link href="https://fonts.googleapis.com/css?family=Jolly+Lodger" rel="stylesheet">
+        <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Jolly+Lodger');
+        body{                                                                                                                                                   background-image: url();
+                background-color: White;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+        }
+        .glitchtext {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+        }
+        .text {
+                font-family: "Jolly Lodger";
+                font-size: 19.5px;
+                color: #000000;
+                text-shadow: 0 0 12.5px #0087FF;                                                                                                                margin: 4%;
+                margin-top: 2%;
+        }
+        .dud {
+                color: #757575;
+        }
+        .matrix {color: lime; font-family: "Jolly Lodger";  font-size:15pt; text-align:center; width:10px; padding:0px; margin:0px;}
+
+        h1 {
+                color: #000000;
+                font-family: "Jolly Lodger";
+                font-size: 60px;
+                font-weight: 400;
+                text-align: center;
+                margin: 0;
+                line-height: 0;
+                animation: glitch1 2.5s infinite;
+        }
+        h1:nth-child(2) {
+                color: #67f3da;
+                animation: glitch2 2.5s infinite;
+        }
+        h1:nth-child(3) {
+                color: #f16f6f;
+                animation: glitch3 2.5s infinite;
+        }
+        @keyframes glitch1 {
+                0% {
+                        transform: none;
+                        opacity: 1;
+                }
+                7% {
+                        transform: skew(-0.5deg, -0.9deg);
+                        opacity: 0.75;
+                }
+                10% {
+                        transform: none;
+                        opacity: 1;
+                }
+                27% {
+                        transform: none;
+                        opacity: 1;
+                }
+                30% {
+                        transform: skew(0.8deg, -0.1deg);
+                        opacity: 0.75;
+                }
+                35% {
+                        transform: none;
+                        opacity: 1;
+                }
+                52% {
+                        transform: none;
+                        opacity: 1;
+                }
+                55% {
+                        transform: skew(-1deg, 0.2deg);
+                        opacity: 0.75;
+                }
+                50% {
+                        transform: none;
+                        opacity: 1;
+                }
+                72% {
+                        transform: none;
+                        opacity: 1;
+                }
+                75% {
+                        transform: skew(0.4deg, 1deg);
+                        opacity: 0.75;
+                }
+                80% {
+                        transform: none;
+                        opacity: 1;
+                }
+                100% {
+                transform: none;
+                        opacity: 1;
+                }
+        }
+                                                                                                                                                        @keyframes glitch2 {
+                0% {
+                        transform: none;
+                        opacity: 0.25;
+                }                                                                                                                                               7% {
+                        transform: translate(-2px, -3px);
+                        opacity: 0.5;
+                }
+                10% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                27% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                30% {
+                        transform: translate(-5px, -2px);
+                        opacity: 0.5;
+                }                                                                                                                                               35% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                52% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                55% {
+                        transform: translate(-5px, -1px);
+                        opacity: 0.5;
+                }
+                50% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                72% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                75% {
+                        transform: translate(-2px, -6px);
+                        opacity: 0.5;
+                }
+                80% {
+                transform: none;
+                        opacity: 0.25;
+                }
+                100% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+        }
+
+        @keyframes glitch3 {
+                0% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                7% {
+                        transform: translate(2px, 3px);
+                        opacity: 0.5;
+                }
+                10% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                27% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                30% {
+                        transform: translate(5px, 2px);
+                        opacity: 0.5;
+                }
+                35% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                52% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                55% {
+                        transform: translate(5px, 1px);
+                        opacity: 0.5;
+                }
+                50% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                72% {
+                transform: none;
+                        opacity: 0.25;
+                }
+                75% {
+                        transform: translate(-2px, -6px);
+                        opacity: 0.5;
+                }
+                80% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                100% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+        }
+
+        @keyframes glitch3 {
+                0% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                7% {
+                        transform: translate(2px, 3px);
+                        opacity: 0.5;
+                }
+                10% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                27% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                30% {
+                        transform: translate(5px, 2px);
+                        opacity: 0.5;
+                }
+                35% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                52% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                55% {
+                        transform: translate(5px, 1px);
+                        opacity: 0.5;
+                }
+                50% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                72% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                75% {
+                        transform: translate(2px, 6px);
+                        opacity: 0.5;
+                }
+                80% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+                100% {
+                        transform: none;
+                        opacity: 0.25;
+                }
+        }
+</style>
+	 <meta charset="UTF-8"/>
+	 <link rel="stylesheet" href="" type="text/css"/> <link rel="stylesheet" href="" type="text/css"/><link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet" type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Iceberg"rel="stylesheet" type="text/css">
+<body bgcolor="white">
+ </head>
+	 <body>
+		 <br>
+<br><br><br>	<center><img style="width:50%"src="http://lh5.ggpht.com/_9F9_RUESS2E/SpV5Yi8Vv5I/AAAAAAAAA4E/W9-J8eMLokM/s800/50-Cool-and-Creative-404-Error-Pages-25.jpg"></div>
+             <br><br><br>
+<center>
+<div id="glitchtext">
+               <h1>Touched By./InY#urLW7</h1>
+               <h1>Touched By./InY#urLW7</h1>
+               <h1>Touched By ./InY#urLW7<h1><br></center><br>
+            <center><font color="black"size="6"face="Shadows Into Light Two">sorry admin your website has been hacked, please increase security again</center>
+           <center><font color="black"size="6"face="Jolly Lodger">Greetz to </center>
+ <span style="color: Red;"><font face="Jolly Lodger"><marquee scrollamount="5" behavior='alternate' width="50%"><span style="color: black;"> <span style="color: black;">-Hallu Cyber Team-IT SE{CURI}TY-2Easy4Hack-Ancient One-Lul'zSec Indo Team-and all defacer Indonesia<span style="color: aqua;"></b></marquee></font></div><script type="text/rocketscript">/*<![CDATA[*/new TypingText(document.getElementById("message"), 90, function(i){ var ar= new Array("_", " ", "_", " "); return "" +ar[i.length % ar.length]; });//Type out examples:TypingText.runAll();/*]]>*/</script>
+<marquee behavior="scroll" direction="right" scrollamount="5" scrolldelay="90" width="50%"></marquee> <br>
+ <center><audio autoplay="autoplay" controls="controls" width="128px" height="30px"><source src="http://freelagu.org/download-mp3/300107209/alan-walker-alone-sing-me-to-sleep-mashup-cover-by-jfla?type=320"></audio></center> <br> 
+	 </body>
+ </html>
